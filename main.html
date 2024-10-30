@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area and Perimeter Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Area and Perimeter Calculator</h1>
+    <form id="shape-form">
+        <label for="shape">Select Shape:</label>
+        <select id="shape" name="shape">
+            <option value="square">Square</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+            <option value="circle">Circle</option>
+        </select>
+        <br>
+        <div id="dimensions">
+        </div>
+        <br>
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
