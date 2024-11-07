@@ -276,30 +276,30 @@ Key Concepts:
 // console.log("\nYour Task: Complete the Calculator Helper Functions!");
 
 // Here's a completed example function:
-function add(a, b) {
-  try {
-    return a + b;
-  } catch (error) {
-    console.log("Error: ", error);
-  }
-}
+// function add(a, b) {
+//   try {
+//     return a + b;
+//   } catch (error) {
+//     console.log("Error: ", error);
+//   }
+// }
 
-// TODO: Complete these functions
-function subtract(a, b) {
-  return a - b;
-  // Your code here: return the result of a - b
-}
+// // TODO: Complete these functions
+// function subtract(a, b) {
+//   return a - b;
+//   // Your code here: return the result of a - b
+// }
 
-function multiply(a, b) {
-  return a * b;
-  // Your code here: return the result of a * b
-}
+// function multiply(a, b) {
+//   return a * b;
+//   // Your code here: return the result of a * b
+// }
 
-function divide(a, b) {
-  return a / b;
-  // Your code here: return the result of a / b
-  // Remember to handle division by zero!
-}
+// function divide(a, b) {
+//   return a / b;
+//   // Your code here: return the result of a / b
+//   // Remember to handle division by zero!
+// }
 
 // Test your functions:
 // console.log(add(5, 3));
@@ -364,21 +364,21 @@ Learning Goals:
 
 // Alert: Shows a message to the user, only has an "OK" button
 // It's a one-way communication - just displays information
-alert("This is an alert - it just shows you this message!");
+// alert("This is an alert - it just shows you this message!");
 
-// Prompt: Shows a message AND gets input from the user
-// It has both an input field and OK/Cancel buttons
-// It returns the user's input as a string (or null if cancelled)
-const userInput = prompt("This is a prompt - try typing something:");
+// // Prompt: Shows a message AND gets input from the user
+// // It has both an input field and OK/Cancel buttons
+// // It returns the user's input as a string (or null if cancelled)
+// const userInput = prompt("This is a prompt - try typing something:");
 
-// We can then use the input from prompt
-if (userInput === null) {
-  alert("You cancelled the prompt!");
-} else if (userInput === "") {
-  alert("You didn't type anything!");
-} else {
-  alert("You typed: " + userInput);
-}
+// // We can then use the input from prompt
+// if (userInput === null) {
+//   alert("You cancelled the prompt!");
+// } else if (userInput === "") {
+//   alert("You didn't type anything!");
+// } else {
+//   alert("You typed: " + userInput);
+// }
 
 // Key differences:
 // 1. Alert - just shows message, returns undefined
